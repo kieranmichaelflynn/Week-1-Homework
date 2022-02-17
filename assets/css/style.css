@@ -1,3 +1,4 @@
+/* Applied to all */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,10 +6,12 @@
     scroll-behavior: smooth;
 }
 
+/* Background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
@@ -42,6 +45,7 @@ header ul li {
     margin-left: 25px;
 }
 
+/* Text color */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -51,6 +55,7 @@ p {
     font-size: 16px;
 }
 
+/* Main image */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,20 +65,40 @@ p {
     background-position: center;
 }
 
+/* Horizontal bars left */
 .float-left {
     float: left;
     margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+.links {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.links img {
+    max-height: 200px;
+}
+
+.links h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Vertically stacked icons right */
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 .benefits {
@@ -107,24 +132,7 @@ p {
     max-height: 150px;
 }
 
-.links {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.links img {
-    max-height: 200px;
-}
-
-.links h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer */
 .footer {
     padding: 30px;
     clear: both;
